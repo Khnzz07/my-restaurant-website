@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts - Rajdhani Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Remix Icon CDN link url(https://github.com/Remix-Design/RemixIcon) >>> used to select different png icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- custom js -->
+  <script src="web.js"></script>
+  <!-- Boot Strap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="web.css" />
+
+  <title>MY WEB</title>
+  <style media="screen">
+
+  </style>
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">J.Khnzz</a>
+
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+          >
+          <span class="menu-icon-bar"></span>
+          <span class="menu-icon-bar"></span>
+          <span class="menu-icon-bar"></span>
+        </button>
+
+        <div id="main-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li><a href="#" class="nav-item nav-link active">Home</a></li>
+            <li class="dropdown">
+              <a href="#offer" class="nav-item nav-link" data-toggle="dropdown">Services</a>
+            </li>
+            <li class="dropdown">
+              <a href="#menue" class="nav-item nav-link" data-toggle="dropdown">Menue</a>
+            </li>
+
+            <li><a href="#about" class="nav-item nav-link">About Us</a></li>
+
+
+            <li><a href="#contact" class="nav-item nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+
+    <div class="banner">
+      <div class="container">
+        <h1>THE ART OF FOOD</h1>
+        <p>P H O T O G R A P H Y</p>
+        <a href="#content" class="button button-primary">View More</a>
+      </div>
+    </div>
+  </header>
+  <!-- special offer section -->
+  <main>
+    <div class="container-fluid" id="offer">
+      <div class="row">
+        <div class="col-md-6" id="a1">
+          <h1>Lunch Special</h1>
+          <p>
+
+
+            "🌟 Limited Time Offer! 🌟
+            Enjoy 20% OFF on our Chef's Special Menu! 😋
+            Treat yourself and your loved ones to a delightful dining experience with our finest dishes.
+            Hurry, this offer ends on 10-11-2023. Book your table now! 🍽️"
+          </p>
+          <h3>Limited Time Offer</h3>
+          <a href="#content" class="button button-primary">ALL SPECIAL</a>
+        </div>
+        <div class="col-md-6"><img src="/pic/3.jpg" alt="pic" /></div>
+      </div>
+    </div>
+  </main>
+  <!-- cards -->
+  <div class="container-fluid" id="menue">
+    <div class="row" id="a2">
+      <span>
+        <h1>--- Our Delicious Menu ---</h1>
+      </span>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/pic/8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Grilled Salmon</h5>
+              <p class="card-text">
+                A succulent fillet of salmon grilled to perfection, served with lemon butter sauce.<br>
+                Price: $16.99
+              </p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/pic/6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bruschetta Platter</h5>
+              <p class="card-text">
+                Freshly toasted baguette slices topped with diced tomatoes, basil, garlic, and balsamic glaze.<br>
+                Price: $7.99
+              </p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/pic/2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Crispy Calamari</h5>
+              <p class="card-text">
+                Lightly breaded calamari rings served with tangy marinara sauce.<br>
+                Price: $9.99
+              </p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Team -->
+  <div class="container-fluid" id="about">
+    <div class="row">
+      <section id="team" class="section-padding">
+        <div class="container">
+          <div class="row my-3">
+            <div class="col-12 text-center">
+              <h2 class="display-4 fw-semibold">ABOUT US</h2>
+              <h5>
+                Team work is dream work & We have the best team in the world
+              </h5>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-12 col-12">
+              <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/uutnmngi.json" trigger="hover"
+                colors="primary:#4be1ec,secondary:#cb5eee" style="width:250px;height:250px">
+              </lord-icon>
+              <h3>TIMING</h3>
+              <p>
+                Monday to Friday: 10:00 AM - 9:00 PM <br>
+Saturday: 9:00 AM - 10:00 PM <br>
+Sunday: 9:00 AM - 9:00 PM 
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12">
+              <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/dqxvvqzi.json" trigger="hover"
+                colors="outline:#121331,primary:#ffc738,secondary:#4bb3fd" style="width:250px;height:250px">
+              </lord-icon>
+              <h3>MANAGER</h3>
+              <p>
+                "Meet our Restaurant Manager, Farhan Khan - A seasoned hospitality professional dedicated to providing exceptional dining experiences for our valued guests."
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12">
+              <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/fihkmkwt.json" trigger="hover"
+                colors="primary:#121331,secondary:#4bb3fd" style="width:250px;height:250px">
+              </lord-icon>
+              <h3>LOCATION</h3>
+              <p>
+                "Find us at 123 Main Street, Cityville, PAK - Your go-to destination for delicious food and warm hospitality, situated in the bustling city center."
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Contact Us -->
+
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-12 text-center">
+          <h2 class="display-4 fw-semibold text-white">Contact Us</h2>
+          <h5 class="text-white">
+            Want to Hire us? Just fill the form and hit the submit button
+          </h5>
+        </div>
+      </div>
+      <form class="text-center">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white">Please share your project details in the
+            comment box below</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" />
+        </div>
+
+        <a href="#content" class="button button-primary">SUBMIT</a>
+      </form>
+    </div>
+
+  </section>
+  <!-- footer -->
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Company Name</h3>
+            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
+              elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+          </div>
+          <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+              href="#"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Company Name © 2018</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+  <!-- Boot Strap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
